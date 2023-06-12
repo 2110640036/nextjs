@@ -7,19 +7,22 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Pet Care App</title>
+        <title>Boing App</title>
       </Head>
 
       <div className="top-bar">
         <div className="nav">
+        
           <Link href="/">Home</Link>
-          <Link href="/new">Add Pet</Link>
-        </div>
-
+          <Link href="/new">Add Pets</Link>
+        
+         
+        
+       </div>
         <img
           id="title"
-          src="https://upload.wikimedia.org/wikipedia/commons/1/1f/Pet_logo_with_flowers.png"
-          alt="pet care logo"
+          src="https://upload.wikimedia.org/wikipedia/commons/8/8c/Logo_Boing.png?20210415070453"
+          alt="Boing Logo"
         ></img>
       </div>
       <div className="grid wrapper">

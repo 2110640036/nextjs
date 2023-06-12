@@ -3,6 +3,12 @@
   box-sizing: border-box;
 }
 
+body { 
+   color: white;
+   background-color: #000F0C
+}
+
+
 /* Nav Area */
 .top-bar {
   width: 100%;
@@ -29,6 +35,7 @@
   display: inline-flex;
   justify-content: center;
   align-items: center;
+  color: white;
 }
 
 .grid {
